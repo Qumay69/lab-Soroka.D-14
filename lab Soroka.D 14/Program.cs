@@ -62,7 +62,6 @@ public class Knegr
 
     public int SkolkoLetKnegr()
     {
-        DateOnly date = new DateOnly();
-        return date.Year - YearPublication;
+        return DateTime.Now.Year - YearPublication;
     }
 }
